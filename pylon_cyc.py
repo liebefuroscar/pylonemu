@@ -135,7 +135,9 @@ if __name__ == "__main__":
     reset_msg = can.Message(arbitration_id=0x00, data=[0, 0, 0, 0, 0, 0], is_extended_id=False)
 
     for interface, channel in [
-        ('socketcan', 'vcan0'),
+#        ('socketcan', 'vcan0'),
+        ('vcan0'),
+        
         #('ixxat', 0)
     ]:
         print("Carrying out cyclic tests with {} interface".format(interface))
