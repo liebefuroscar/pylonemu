@@ -30,10 +30,10 @@ msg_data_Battery_actual_values_UIt = {
   'Battery_voltage' : 0}
 
 msg_data_Battery_limits = {
- 'Battery_discharge_current_limit' : -120,
- 'Battery_charge_current_limit' : 120,
- 'Battery_charge_voltage' : 56,
- 'Battery_discharge_voltage' : 49 }
+ 'Battery_discharge_current_limit' : -16,
+ 'Battery_charge_current_limit' : 16,
+ 'Battery_charge_voltage' : 55,
+ 'Battery_discharge_voltage' : 50 }
 
 msg_data_Battery_Error_Warnings = {
  'Module_numbers' : 16,
