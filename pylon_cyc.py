@@ -27,7 +27,7 @@ msg_data_Battery_Request = {
 msg_data_Battery_actual_values_UIt = {
   'Battery_temperature' : 20,
   'Battery_current' : 0,
-  'Battery_voltage' : 0}
+  'Battery_voltage' : 53}
 
 msg_data_Battery_limits = {
  'Battery_discharge_current_limit' : -16,
